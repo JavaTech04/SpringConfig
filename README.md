@@ -12,7 +12,7 @@ spring.datasource.url=jdbc:sqlserver://localhost;databaseName=
 spring.datasource.username=sa
 spring.datasource.password=123
 spring.jpa.show-sql=true
-spring.jpa.hibernate.ddl-auto = update
+spring.jpa.hibernate.ddl-auto = none
 ```
 ## Embed Tomcat
 ```
