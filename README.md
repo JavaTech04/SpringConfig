@@ -95,7 +95,7 @@ spring.jpa.hibernate.ddl-auto = create-drop/update
 encrypt=true;trustServerCertificate=true;
 ```
 
-# Error creating bean with name 'entityManagerFactory' defined in class path resource : Invocation of init method failed
+#### Error creating bean with name 'entityManagerFactory' defined in class path resource : Invocation of init method failed
 <span>I would start by adding the following dependency:</span>
 ```
 <dependency>
