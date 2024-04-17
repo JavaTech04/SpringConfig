@@ -89,3 +89,8 @@ spring.jpa.hibernate.ddl-auto = create-drop/update
 </dependency>
 
 ```
+
+## USING SSL
+```
+encrypt=true;trustServerCertificate=true;
+```
