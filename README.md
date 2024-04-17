@@ -4,14 +4,10 @@
 
 # Spring Boot Config
 
-## Config jsp 
+## application.properties
 ```
 spring.mvc.view.prefix=/WEB-INF/views/
 spring.mvc.view.suffix=.jsp
-```
-
-## application.properties
-```
 spring.datasource.url=jdbc:sqlserver://localhost;databaseName=...
 spring.datasource.username=sa
 spring.datasource.password=123
