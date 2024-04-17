@@ -5,3 +5,14 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vuscriptmasterforge&label=Profile%20views&color=0e75b6&style=flat" alt="vuscriptmasterforge" /> </p>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+
+## application.properties
+```
+spring.datasource.url=jdbc:sqlserver://localhost;databaseName=...
+spring.datasource.username=sa
+spring.datasource.password=123
+spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+spring.jpa.show-sql=true
+spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
+spring.jpa.hibernate.ddl-auto = create-drop/update
+```
