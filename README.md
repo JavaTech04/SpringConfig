@@ -9,6 +9,7 @@
 spring.mvc.view.prefix=/WEB-INF/views/
 spring.mvc.view.suffix=.jsp
 spring.datasource.url=jdbc:sqlserver://localhost;databaseName=
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 spring.datasource.username=sa
 spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto = create/create-drop/validate/update/none
