@@ -9,7 +9,6 @@
 spring.mvc.view.prefix=/WEB-INF/views/
 spring.mvc.view.suffix=.jsp
 spring.datasource.url=jdbc:sqlserver://localhost;databaseName=
-spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 spring.datasource.username=sa
 spring.datasource.password=
 spring.jpa.show-sql=true
@@ -102,4 +101,10 @@ encrypt=true;trustServerCertificate=true;
     <artifactId>jaxb-api</artifactId>
     <version>2.3.0</version>
 </dependency>
+```
+
+## Error invalid object  name:
+<span>Enter this code here to the application.properties  </span>
+```
+spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 ```
