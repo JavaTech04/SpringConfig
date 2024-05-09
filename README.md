@@ -4,7 +4,7 @@
 
 # Spring Boot Config
 
-## application.properties
+## application.properties (<span style="color: red;">*</span>)
 ```
 spring.mvc.view.prefix=/WEB-INF/views/
 spring.mvc.view.suffix=.jsp
