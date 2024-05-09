@@ -4,8 +4,7 @@
 
 # Spring Boot Config
 
-\## application.properties (\*)
-
+## application.properties (*)
 ```
 spring.mvc.view.prefix=/WEB-INF/views/
 spring.mvc.view.suffix=.jsp
@@ -15,7 +14,7 @@ spring.datasource.password=
 spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto = create/create-drop/validate/update/none
 ```
-## Embed Tomcat
+## Embed Tomcat (*)
 ```
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
@@ -23,7 +22,7 @@ spring.jpa.hibernate.ddl-auto = create/create-drop/validate/update/none
 </dependency>
 ```
 
-## JSTL 
+## JSTL (*)
 ```
 <dependency>
     <groupId>jakarta.servlet.jsp.jstl</groupId>
@@ -99,12 +98,12 @@ spring.jpa.hibernate.ddl-auto = create/create-drop/validate/update/none
 
 ```
 
-## USING SSL
+## USING SSL (*)
 ```
 encrypt=true;trustServerCertificate=true;
 ```
 
-## Error creating bean with name 'entityManagerFactory' defined in class path resource : Invocation of init method failed
+## Error creating bean with name 'entityManagerFactory' defined in class path resource : Invocation of init method failed 
 <span>I would start by adding the following dependency:</span>
 ```
 <dependency>
