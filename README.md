@@ -45,16 +45,6 @@ spring.jpa.hibernate.ddl-auto = create/create-drop/validate/update/none
 </dependency>
 ```
 
-## Bootstrap 5.3.3
-```
-<dependency>
-    <groupId>org.webjars</groupId>
-    <artifactId>bootstrap</artifactId>
-    <version>5.3.3</version>
-</dependency>
-
-```
-
 ## MSSQL JDBC
 ``` 
 <dependency>
