@@ -118,3 +118,31 @@ encrypt=true;trustServerCertificate=true;
 ```
 spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 ```
+## Custom annotation
+<span>Annotation interface</span>
+```
+import jakarta.validation.*;
+import java.lang.annotation.*;
+
+@Target({ElementType.FIELD, ElementType.METHOD, ElementType.TYPE})
+@Retention(RetentionPolicy.RUNTIME)
+@Constraint(validatedBy = {Class.class})
+public @interface NameAnnotation {
+    String message() default "Message";
+
+    Class<?>[] groups() default {};
+
+    Class<? extends Payload>[] payload() default {};
+}
+```
+<span>Annotation class</span>
+```
+import jakarta.validation.*;
+
+public class ClassName implements ConstraintValidator<InterfaceAnnotation, DataType> {
+    @Override
+    public boolean isValid(DataType name, ConstraintValidatorContext constraintValidatorContext) {
+        return true;
+    }
+}
+```
