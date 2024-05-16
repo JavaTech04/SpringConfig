@@ -102,9 +102,3 @@ encrypt=true;trustServerCertificate=true;
     <version>2.3.0</version>
 </dependency>
 ```
-
-## Error invalid object  name (*)
-<span>Enter this code here to the application.properties  </span>
-```
-spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-```
